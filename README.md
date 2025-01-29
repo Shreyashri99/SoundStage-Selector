@@ -46,6 +46,44 @@ Utilized network analysis algorithms to visualize collaboration structures.
 
 Applied correlation analysis to study relationships between artist influence and engagement levels.
 
+# Data Loading & Preprocessing
+
+Read datasets from Spotify, YouTube, and artist collaboration sources.
+
+Dropped unnecessary columns such as URLs and metadata.
+
+Renamed and structured columns for consistency.
+
+Handled missing values by filling or dropping based on context.
+
+# Feature Engineering
+
+Created an engagement score as a weighted sum of likes, comments, and views.
+
+Calculated collaboration impact as the ratio of collaboration songs to unique collaborators.
+
+Normalized engagement and collaboration impact using Min-Max scaling.
+
+Categorized and mapped genres into broader categories.
+
+# Network Analysis & Correlation Study
+
+Constructed a collaboration network to visualize artist connections.
+
+Used Fruchterman-Reingold layout for network positioning.
+
+Analyzed correlations between artist engagement, concert fees, and collaboration impact.
+
+# Visualization & Dashboard Development
+
+Generated insights into artist recommendations based on popularity and audience resonance.
+
+Plotted regional trends in genre distribution and collaboration influence.
+
+Developed a dashboard for concert planners to filter and explore artists based on key metrics.
+
+
+
 # Visualization & Insights
 
 An interactive dashboard was developed to showcase:
