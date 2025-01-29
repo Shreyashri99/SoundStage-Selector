@@ -1,4 +1,4 @@
-# SoundStage Selector: Intelligent Artist Recommendation for Concerts
+# SoundStage Selector: Intelligent Artist Recommendation for Concerts organizers
 
 Overview
 
